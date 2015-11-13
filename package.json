@@ -1,0 +1,17 @@
+{
+  "name": "image-min",
+  "version": "1.0.0",
+  "description": "Used to minify a folder of images",
+  "main": "imagemin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp minify"
+  },
+  "author": "Matthew harwood",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-imagemin": "^2.4.0",
+    "imagemin-pngquant": "^4.2.0"
+  }
+}
