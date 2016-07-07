@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Used to minify a folder of images",
   "main": "imagemin.js",
+  "engine": "node >= 5.0.0",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "gulp minify"
